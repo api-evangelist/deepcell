@@ -1,7 +1,27 @@
 aid: deepcell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deepcell.png
 name: DeepCell
-description: DeepCell is a company surfaced as a portfolio company of a16z, dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Deepcell is a Menlo Park, California life-sciences company building an
+  AI-powered platform for label-free single-cell morphology analysis, a field it calls
+  morpholomics. Its REM-I platform combines label-free imaging, deep learning, and
+  gentle cell enrichment to treat single-cell morphology as a high-dimensional, quantitative
+  biological readout without destructive sample preparation. Applications span oncology
+  and tumor heterogeneity profiling, phenotypic drug discovery, cell and gene therapy
+  quality control and manufacturing, regenerative medicine, transplant monitoring,
+  neurobiology, and agriculture. Backed by a16z and DCVC, Deepcell was added to the
+  API Evangelist network as a portfolio lead; it currently publishes a corporate site,
+  blog, and publications but no public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/deepcell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Life Sciences
+- Single Cell Analysis
+- Cell Imaging
+- Morpholomics
+- Deep Learning
+- Biotechnology
+- Drug Discovery
+- Oncology
+- Cell and Gene Therapy
 apis: []
+common:
+- type: DomainSecurity
+  url: security/deepcell-domain-security.yml
+- type: Website
+  url: https://deepcell.com
+- type: Blog
+  url: https://deepcell.com/blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
