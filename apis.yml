@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Life Sciences
@@ -57,6 +57,10 @@ tags:
 - Cell and Gene Therapy
 apis: []
 common:
+- url: https://www.deepcell.com/blog
+  type: Blog
+- url: https://www.deepcell.com/blog?format=rss
+  type: BlogRSS
 - type: DomainSecurity
   url: security/deepcell-domain-security.yml
 - type: Website
